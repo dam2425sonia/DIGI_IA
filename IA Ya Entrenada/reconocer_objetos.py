@@ -15,7 +15,7 @@ import os
 
 # 0. Obtener ruta del script
 carpeta_script = os.path.dirname(os.path.abspath(__file__))
-ruta_imagen = os.path.join(carpeta_script, "mi_foto1.jpg")
+ruta_imagen = os.path.join(carpeta_script, "mi_foto.jpg")
 
 print("Buscando imagen en:", ruta_imagen)
 
